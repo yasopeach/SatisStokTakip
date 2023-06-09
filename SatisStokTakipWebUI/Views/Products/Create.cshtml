@@ -1,0 +1,29 @@
+﻿@model SatisStokTakipWebUI.Models.Product
+
+<h2>Create</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="ProductCode" class="control-label"></label>
+        <input asp-for="ProductCode" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <input asp-for="Description" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Price" class="control-label"></label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Stock" class="control-label"></label>
+        <input asp-for="Stock" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>

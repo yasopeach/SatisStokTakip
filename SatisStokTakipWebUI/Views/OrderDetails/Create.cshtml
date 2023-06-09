@@ -1,0 +1,25 @@
+﻿@model SatisStokTakipWebUI.Models.OrderDetail
+
+<h2>Create</h2>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="OrderId" class="control-label"></label>
+        <input asp-for="OrderId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductId" class="control-label"></label>
+        <input asp-for="ProductId" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Quantity" class="control-label"></label>
+        <input asp-for="Quantity" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="TotalPrice" class="control-label"></label>
+        <input asp-for="TotalPrice" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatisStokTakipAPI", "SatisStokTakipAPI\SatisStokTakipAPI.csproj", "{5B35CF3A-8749-498C-93C6-C8446FCE22DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatisStokTakipWebUI", "SatisStokTakipWebUI\SatisStokTakipWebUI.csproj", "{F57999C1-92D7-4D6C-AE53-892779226751}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B35CF3A-8749-498C-93C6-C8446FCE22DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B35CF3A-8749-498C-93C6-C8446FCE22DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B35CF3A-8749-498C-93C6-C8446FCE22DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B35CF3A-8749-498C-93C6-C8446FCE22DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F57999C1-92D7-4D6C-AE53-892779226751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57999C1-92D7-4D6C-AE53-892779226751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57999C1-92D7-4D6C-AE53-892779226751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57999C1-92D7-4D6C-AE53-892779226751}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C1E4F45-154B-4CCC-9624-B545C9514467}
+	EndGlobalSection
+EndGlobal

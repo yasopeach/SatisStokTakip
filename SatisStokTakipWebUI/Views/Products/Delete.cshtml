@@ -1,0 +1,24 @@
+﻿@model SatisStokTakipWebUI.Models.Product
+
+<h2>Delete</h2>
+
+<form asp-action="Delete">
+    <div>
+        <h4>Are you sure you want to delete this?</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>@Html.DisplayNameFor(model => model.ProductCode)</dt>
+            <dd>@Html.DisplayFor(model => model.ProductCode)</dd>
+            <dt>@Html.DisplayNameFor(model => model.Name)</dt>
+            <dd>@Html.DisplayFor(model => model.Name)</dd>
+            <dt>@Html.DisplayNameFor(model => model.Description)</dt>
+            <dd>@Html.DisplayFor(model => model.Description)</dd>
+            <dt>@Html.DisplayNameFor(model => model.Price)</dt>
+            <dd>@Html.DisplayFor(model => model.Price)</dd>
+            <dt>@Html.DisplayNameFor(model => model.Stock)</dt>
+            <dd>@Html.DisplayFor(model => model.Stock)</dd>
+        </dl>
+
+        <input type="submit" value="Delete" class="btn btn-danger" />
+    </div>
+</form>
