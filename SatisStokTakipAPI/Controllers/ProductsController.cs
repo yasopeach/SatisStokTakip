@@ -129,7 +129,7 @@ namespace SatisStokTakipAPI.Controllers
             List<Product> products = xdoc.Root.Elements("Product")
                 .Select(e => new Product
                 {
-                    Id = (int)e.Element("Id"),
+                    ProductId = (int)e.Element("Id"),
                     Name = (string)e.Element("Name"),
                     Description = (string)e.Element("Description"),
                     Price = (decimal)e.Element("Price"),
@@ -152,4 +152,3 @@ namespace SatisStokTakipAPI.Controllers
 
 }
 
-}

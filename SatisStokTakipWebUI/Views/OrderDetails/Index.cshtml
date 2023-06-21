@@ -23,8 +23,9 @@
                 <td>@Html.DisplayFor(modelItem => item.Quantity)</td>
                 <td>@Html.DisplayFor(modelItem => item.TotalPrice)</td>
                 <td>
-                    <a asp-action="Details" asp-route-id="@item.OrderDetailId">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.OrderDetailId">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.OrderDetailId" class="btn btn-warning">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.OrderDetailId" class="btn btn-info">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.OrderDetailId" class="btn btn-danger">Delete</a>
                 </td>
             </tr>
         }

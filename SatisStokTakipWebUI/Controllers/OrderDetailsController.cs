@@ -110,7 +110,7 @@ namespace SatisStokTakipWebUI.Controllers
             HttpResponseMessage response = await client.GetAsync("https://localhost:44308/api/orderdetails/" + id);
             if (response.IsSuccessStatusCode)
             {
-                var orderDetails = await response.Content.ReadAsAsync<Order>();
+                var orderDetails = await response.Content.ReadAsAsync<OrderDetail>();
                 return View(orderDetails);
             }
             else
